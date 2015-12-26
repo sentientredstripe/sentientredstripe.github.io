@@ -2059,6 +2059,12 @@ img.responsive-img, video.responsive-video {
   max-width: 100%;
   height: auto; }
 
+img.profile {
+	max-width: 18%;
+height: auto; 
+float: inherit; }
+}
+
 .pagination li {
   font-size: 1.2rem;
   float: left;
