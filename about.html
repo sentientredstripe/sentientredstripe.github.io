@@ -13,7 +13,8 @@
 <body>
 <!--Navbar-->
   <nav class="teal lighten-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo">Me</a>
+    <div class="nav-wrapper container">
+	<a id="logo-container" href="index.html" class="brand-logo">Me</a>
 	<ul class="right hide-on-med-and-down">
         <li class="active"><a href="about.html">About</a></li>
         <li><a href="projects.html">Projects</a></li>
@@ -48,31 +49,39 @@
 <li>A much-neglected Medium account</li>
 </div>
 
-  <!--Footer-->
+<!--Footer-->
   <footer class="page-footer grey darken-1">
     <div class="container">
       <div class="row">
-        <div class="col l6 s12">
+        <div class="col s6">
+		<ul>
           <h5 class="white-text">Sitemap</h5>
-          <p class="grey-text text-lighten-4">Places!  Things!</p>
-
-
-        </div>
+          <ul class="grey-text text-lighten-4">Home</ul>
+		  <ul class="grey-text text-lighten-4">About</ul>
+		  <ul class="grey-text text-lighten-4 indent">Favorites</ul>
+		  <ul class="grey-text text-lighten-4">Projects</ul>
+		</ul>
+</div>
+<div class="row">
+        <div class="col s6">
           <h5 class="white-text">Connect</h5>
           <ul>
-            <li><a class="white-text" href="https://github.com/sentientredstripe">Github</a></li>
-            <li><a class="white-text" href="https://twitter.com/cylononsecurity">Twitter</a></li>
-			<li><a class="white-text" href="https://medium.com/@cylononsecurity">Medium</a></li>
+            <ul><a class="white-text" href="https://github.com/sentientredstripe">Github</a></ul>
+            <ul><a class="white-text" href="https://twitter.com/cylononsecurity">Twitter</a></u>
           </ul>
         </div>
       </div>
+	  </div>
     </div>
+	
     <div class="footer-copyright">
       <div class="container">
-      Made by <a class="white-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+	  &copy 2015 Ian Smithh. All rights reserved.
+      Made with <a class="white-text text-lighten-3" href="http://materializecss.com">Materialize.</a>
       </div>
     </div>
   </footer>
+<!--Footer ends-->
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>

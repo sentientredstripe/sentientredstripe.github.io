@@ -2068,6 +2068,10 @@ i.ortext {
 	font-size: 1rem;
 	font-weight: inherit; 
 }
+
+ul.indent {
+    text-indent: 30px;
+}
 }
 
 .pagination li {
