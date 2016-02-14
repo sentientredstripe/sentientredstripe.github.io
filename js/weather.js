@@ -34,10 +34,7 @@ function loadWeather(location, woeid) {
 	  html += '<ul>'+weather.title+'</ul>';
       html += '<ul class="currently">Right now it is '+weather.currently+'</ul>'; 
 	  html += '<ul>The high will be '+weather.high+' and the low will be '+weather.low+'</ul>';
-      $("#weather").html(html);
-	  
-	  html = '<p>'+weather.link+'</p>';
-	  $("#card-action").html(html);
+      $("#weather").html(html);  
     },
     error: function(error) {
       $("#weather").html('<p>'+error+'</p>');
