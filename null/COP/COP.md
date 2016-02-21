@@ -11,7 +11,7 @@ The Colonies are relatively rich for an island nation of their size due to the e
 Due to the aforementioned ability to process seawater into oil and therefore any other petroleum-based fuel, it has been proposed by observers that the lack of a need to import oil from other countries is one of the reasons that the country is so comparatively wealthy, although the official Colonial line is that the country's wealth comes from the innovations of its citizens.
 
 ###Government###
-The Colonies would like to be a direct democracy but doing so would be prohibitive and difficult, and thus a parliamentary system was settled on.  In the early years of the country, some favored running the government entirely via a Git-based system but this proposal was not adopted for obvious reason.
+The Colonies would like to be a direct democracy but doing so would be prohibitive and difficult, and thus a parliamentary system was settled on. 
 
 The government is highly regarded for efficiency and for its ability to get things done even with divided legislative bodies.  This may be due to the fact that opinions are not as deeply divided as in other countries and the population is relatively homogeneous, as well as the way the pay structure is written for those in lawmaking positions.  
 

@@ -15,12 +15,11 @@ $('.js-geolocation').on('click', function() {
 });
 
 /* 
-* Test Locations
-* Austin lat/long: 30.2676,-97.74298
-* Austin WOEID: 2357536
+*Set to PVD by default
 */
 $(document).ready(function() {
   loadWeather('Providence',''); //@params location, woeid
+    setInterval(getWeather, 600000); //Update the weather every 10 minutes.
 });
 
 function loadWeather(location, woeid) {
