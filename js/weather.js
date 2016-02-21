@@ -30,10 +30,11 @@ function loadWeather(location, woeid) {
     unit: 'f',
     success: function(weather) {
 	  
-      html = '<h4><i class="icon-'+weather.code+'"></i> '+weather.temp+'&deg;'+weather.units.temp+'</h4>';
+    html = '<h4><i class="icon-'+weather.code+'"></i> '+weather.temp+'&deg;'+weather.units.temp+'</h4>';
 	  html += '<ul>'+weather.title+'</ul>';
-      html += '<ul class="currently">Right now it is '+weather.currently+'</ul>'; 
+    html += '<ul class="currently">Right now it is '+weather.currently+'</ul>'; 
 	  html += '<ul>The high will be '+weather.high+' and the low will be '+weather.low+'</ul>';
+	  html += '<ul>Tomorrow it will be '+forecast[1].text+'</ul>';
       $("#weather").html(html);  
     },
     error: function(error) {
